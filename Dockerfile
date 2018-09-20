@@ -13,4 +13,5 @@ RUN apk update && \
 
 RUN pip install --upgrade pip && \
     pip install grpcio && \
-    pip install grpcio-tools
+    pip install grpcio-tools && \
+    pip install --upgrade setuptools
