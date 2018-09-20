@@ -15,3 +15,7 @@ RUN pip install --upgrade pip && \
     pip install grpcio && \
     pip install grpcio-tools && \
     pip install --upgrade setuptools
+
+RUN pip install cryptography \
+                cffi \
+                psycopg2
